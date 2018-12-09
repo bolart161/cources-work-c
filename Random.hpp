@@ -2,7 +2,7 @@
 #define RANDOM_HPP
 
 #include <iostream>
-#include <random>       /* time */
+#include <random>
 #include "Game.hpp"
 
 class Random
@@ -11,4 +11,4 @@ public:
 	Random();
 	void Randomize(Game &);
 };
-#endif
+#endif // RANDOM_HPP

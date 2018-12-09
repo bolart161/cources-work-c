@@ -4,11 +4,10 @@
 class Piece
 {
 public:
-	Piece(int x, int y, int posX, int posY, int num);
+	Piece(int posX, int posY, int num);
 	Piece();
-	void GetSize(int field_x, int field_y);
 
-	int x_, y_, posX_, posY_, sizeX_, sizeY_, num_;
+	int posX_, posY_, num_;
 };
 
 #endif
